@@ -55,10 +55,10 @@ The **accuracy of the model is 85.2%** with precision of prediction 83% for abse
 This model successfully classifies the patients based on 14 given attributes into presence and absenece of heart disease. 
 
 ### Acknowledgement:
-Creators:
-Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
-University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
-University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
-V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
-Donor:
-David W. Aha (aha '@' ics.uci.edu) (714) 856-8779
+Creators:  
+Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.  
+University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.  
+University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.  
+V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.  
+Donor:  
+David W. Aha (aha '@' ics.uci.edu) (714) 856-8779  
