@@ -1,7 +1,10 @@
 # heart_disease_prediction
 Heart Disease UCI dataset
 
-This is experiment to simply predict presence of heart disease from its absence. The dataset is provided on Kaggle (https://www.kaggle.com/ronitf/heart-disease-uci). and can be otained from UCI machine learning repository (https://archive.ics.uci.edu/ml/datasets/Heart+Disease).
+This is experiment to simply predict presence of heart disease from its absence. 
+
+### 1. About dataset:
+The dataset is provided on Kaggle (https://www.kaggle.com/ronitf/heart-disease-uci). and can be otained from UCI machine learning repository (https://archive.ics.uci.edu/ml/datasets/Heart+Disease).
 
 The data containes total 14 attributes which are listed below.
 
@@ -36,19 +39,19 @@ The data containes total 14 attributes which are listed below.
     
 
 
-### Data preprocessing and visualization:
+### 2. Data preprocessing and visualization:
 
 The data is visualized with various graphs for its distribution of attributes. 
 #### One Hot Encoding: 
 The attribute 'slope' and 'thal' are the categorical variables for which numerical values are provided in the data.
 As these attributes correspond to the slope of the peak exercise ST segment and the type of defect, respectively, the categories do not represent any order and are not graded values. To make model more efficient, thus, I have considered one-hot-encoding for these attributes.
 
-### Applying Naive Beyes algorithm
+### 3. Applying Naive Beyes algorithm
 The basic probablistic model of naive beyes is applied and the model performance is analysed for various 'smoothig' and 'fit_prior' combinations. Smoothing is required to avoid zero probability outcome in case of inadequate data value variance.
 The best model was selected with 'smoothing' value of 1 and fitted with priors.
 
-### Results:
-The accuracy of the model is 85.2% with precision of prediction 83% for absence of heart disease and 87% for presence of heart disease.
+### 4. Results:
+The **accuracy of the model is 85.2%** with precision of prediction 83% for absence of heart disease and 87% for presence of heart disease.
 This model successfully classifies the patients based on 14 given attributes into presence and absenece of heart disease. 
 
 ### Acknowledgement:
