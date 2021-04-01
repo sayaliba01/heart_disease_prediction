@@ -57,7 +57,7 @@ This model successfully classifies the patients based on 14 given attributes int
 ### Acknowledgement:
 
 DATASET :<br>
-    <t> Creators:  
+> Creators:  
         >> Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.  
         >> University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.  
         >> University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.  
